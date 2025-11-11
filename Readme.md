@@ -151,7 +151,7 @@ Access the triggers by clicking this link.
 ## 7. **Sample Queries and Use Cases** 📊
 For a full set of queries, views, and triggers with example outputs, please refer to the project presentation PDF:  
 
-➡️ [Project Presentation)](./CS50%20Introduction%20to%20Databases%20with%20SQL.pdf)
+➡️ [Project Presentation](./CS50%20Introduction%20to%20Databases%20with%20SQL.pdf)
 
 ## 8. **Integration with Power BI** 📈
 
