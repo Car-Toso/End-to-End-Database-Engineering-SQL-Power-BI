@@ -180,12 +180,13 @@ In this section you should answer the following questions:
 
 #### **What are the limitations of your design?**
 #### **What might your database not be able to represent very well?**
-While this database provides a solid structure for managing an engineering consulting firm, it has some limitations:
-Financial operations beyond budgets – The system does not handle payroll, invoices, taxes, or other financial transactions outside of project budgets.
-Detailed scheduling and resource conflicts – Assignments of staff and equipment are tracked, but the database cannot automatically detect overlapping schedules or availability conflicts.
-Physical tracking of equipment – Equipment is recorded for projects, but real-time location or inventory management is not included.
-Complex project dependencies – Dependencies between tasks or phases within a project are not represented.
-Historical changes beyond soft deletion – While staff records can be deactivated using a soft delete (activo = FALSE), detailed historical tracking of changes in projects, budgets, or equipment assignments is not fully implemented.
-These limitations should be considered when planning extensions, reporting, or automated project management features.
+ While this database provides a solid foundation for managing an engineering consulting firm, it presents several limitations that should be considered for future development:
+- **Financial operations beyond budgets**: The system does not handle payroll, invoices, taxes, or other financial transactions outside of project budgets.
+- **Detailed scheduling and resource conflicts:** Staff and equipment assignments are tracked, but the database does not automatically detect overlapping schedules or availability conflicts.
+- **Physical tracking of equipment:** Equipment is linked to projects, but real-time location or inventory management is not included.
+- **Complex project dependencies:** Relationships between tasks or project phases are not currently represented.
+- **Historical changes beyond soft deletion:** While staff records can be deactivated using a soft delete (activo = FALSE), detailed version tracking for projects, budgets, or equipment assignments is not yet implemented.
+
+These limitations should be taken into account when extending the system to include advanced reporting, scheduling, or automated project management features.
 
 
